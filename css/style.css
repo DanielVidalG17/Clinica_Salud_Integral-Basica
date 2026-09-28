@@ -1,0 +1,27 @@
+/* Texto del carrusel */
+.carousel-caption {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 15px;
+}
+
+/* Imágenes del carrusel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Imágenes de las tarjetas de médicos */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Efecto al pasar el mouse por las tarjetas */
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
